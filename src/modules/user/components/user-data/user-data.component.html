@@ -1,0 +1,11 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>{{user.data.first_name + user.data.last_name}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <img [src]="user.data.avatar" />
+        <p>
+            {{user.data.email}}
+        </p>
+    </mat-card-content>
+</mat-card>

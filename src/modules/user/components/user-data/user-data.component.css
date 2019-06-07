@@ -1,0 +1,8 @@
+mat-card-content > img {
+    width: 14vw;
+    height: 9vw;
+}
+.mat-card {
+  width: 15vw;
+  height: 15vw;
+}
